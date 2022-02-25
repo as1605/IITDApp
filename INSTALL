@@ -1,0 +1,5 @@
+Installation
+============
+
+* Use location 2.5.4, go to `~/.pub-cache/hosted/pub.dartlang.org/location-2.5.4/android/build.gradle` and change `api 'com.google.android.gms:play-services-location:19.+'` to `api 'com.google.android.gms:play-services-location:19.0.1'`
+* Go to `~/.pub-cache/git/device_calendar-9ab85e3fbc89d66f26131322ef8964bc81388d1d/android/src/main/kotlin/com/builttoroam/devicecalendar/CalendarDelegate.kt: (806, 65):` and change `max()` to `maxOrNull()`
